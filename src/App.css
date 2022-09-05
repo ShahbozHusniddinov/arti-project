@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.max-width {
+  display: block;
+  max-width: 1440px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 41px;
+  height: 106px;
+  background: #FFFFFF;
+  border-radius: 0px;
+}
+
+ul {
+  display: flex;
+  gap: 34px;
+}
+
+ul li a {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #404040;
+}
+
+.dad {
+  background: url('../public/img/bg.png');
+  height: 391px;
+}
+
+.dad1 h1 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 105px;
+}
+
+.dad1 p {
+  font-family: 'Vollkorn';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.81);
+}
+
+.dad1 img {
+  padding: 28px 680px;
+}
+
+.dad2 {
+  height: 289px;
+  background: #FEFEC9;
+  border-radius: 0px;
+}
+
+.dad3 p {
+  font-family: 'Vollkorn';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #47474F;
+  padding-top: 60px;
+}
+
+.dad3 button {
+  padding: 13px 33px;
+  background: #FEFEC9;
+  border-radius: 0px;
+  border: 1px solid black;
+  margin: 39px;
+  margin-left: 645px;
+}
+
+.dad4 {
+  background: #ffffff;
+  height: 800px;
+}
+
+.dad4 h1 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  padding-top: 79px;
+}
+
+.dad-title1 {
+  height: 239px;
+  width: 300px;
+  padding: 57px 87px;
+  background: #F5F5F5;
+  border-radius: 0px;
+  margin-left: 100px;
+}
+
+.dad-title {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 73px;
+}
+
+.dad-text img {
+  margin: 28px 680px;
+}
+
+.text-dad h3 {
+  font-family: 'Vollkorn';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.text-dad h1 {
+  margin-left: 73px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  margin-top: -20px;
+}
+
+.second-title h1 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  padding-top: 79px;
+}
+
+.second {
+  height: 1569px;
+  background: #F5F5F5;
+  border-radius: 0px;
+}
+
+.second-title img {
+  margin: 28px 680px;
+}
+
+.second-text {
+  height: 84px;
+  width: 300px;
+  background: #FFFFFF;
+  border-radius: 0px;
+}
+
+.second-text h2 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  padding-top: 19px;
+}
+
+.second-text h3 {
+  font-family: 'Vollkorn';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+  padding-top: 4px;
+}
+
+.second1 {
+  display: flex;
+  gap: 20px;
+  margin: 43px 250px;
+}
+
+.team1 h1 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.team {
+  background: #ffffff;
+  height: 500px;
+  padding-top: 79px;
+}
+
+.team1 img {
+  margin: 28px 680px;
+}
+
+.text-team h1 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.text-team h3 {
+  font-family: 'Vollkorn';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-left: 80px;
+  margin-top: 6px;
+}
+
+.icon img {
+  margin-left: 25px;
+}
+
+.icon {
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+.team-card {
+  display: flex;
+  gap: 20px;
+  margin: 43px 250px;
+}
+
+.team-second {
+  height: 611px;
+  background: #F5F5F5;
+  border-radius: 0px;
+  margin-top: 100px;
+}
+
+.team-second1 img {
+  margin: 69px 689px;
+}
+
+.team-ota1 h1 {
+  font-family: 'Vollkorn';
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  color: #333333;
+}
+
+.team-ota1 h3 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ABABAB;
+}
+
+.team-ota1 {
+  padding: 26px 228px;
+}
+
+.team-ota-img img {
+  margin-left: 70px;
+  margin-top: 24px;
+}
+
+.team-ota-img h3 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.team-ota {
+  display: flex;
+}
+
+.footer {
+  background: url('../public/img/footer.png');
+  height: 517px;
+}
+
+.last-one h1 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  padding-top: 79px;
+}
+
+.last-one img {
+  margin: 28px 680px;
+}
+
+.last-card h2 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-top: 26px;
+}
+
+.last-card h3 {
+  font-family: 'Vollkorn';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #212121;
+  margin-top: 20px;
+}
+
+.last-card {
+  text-align: center;
+}
+
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+.finish {
+  height: 639px;
+  background: #000000;
+  border-radius: 0px;
+}
+
+.first-in input {
+  height: 57px;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 0px;
+  border: none;
+}
+
+.first1-in input {
+  width: 400px;
+  border: none;
+  height: 57px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0px;
+}
+
+.first2-in input {
+  height: 57px;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 0px;
+  border: none;
+}
+
+.first3-in textarea {
+  height: 127px;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0px;
+}
+
+.input-btn button {
+  padding: 15px 60px;
+  border: 1px solid #7EC4BD;
+  background: none;
+  font-family: 'Vollkorn';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #8BCAC3;
+  margin-top: 38px;
+  margin-left: 90px;
+}
+
+.finish1 {
+  padding: 69px 538px;
+}
+
+.fish-text p {
+  font-family: 'Vollkorn';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center; 
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.fish-img img{
+  padding: 17px 0 0 720px;
+  margin-top: -40px;
+}
